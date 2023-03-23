@@ -3,7 +3,7 @@ from tljh.user import ensure_group
 import sh
 
 @hookimpl
-def tljh_extra_user_conda_packages():
+def tljh_extra_user_pip_packages():
     return ['voila']
 
 @hookimpl
