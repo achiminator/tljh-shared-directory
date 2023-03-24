@@ -4,7 +4,10 @@ import sh
 
 @hookimpl
 def tljh_extra_user_pip_packages():
-    return ['voila']
+    return ['voila', 'pyathena', 'seaborn', 'pandas', 'openpyxl', 'boto3']
+
+def tljh_extra_apt_packages():
+    return ['language-pack-de']
 
 @hookimpl
 def tljh_config_post_install(config):
