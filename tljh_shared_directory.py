@@ -4,7 +4,7 @@ import sh
 
 @hookimpl
 def tljh_extra_user_pip_packages():
-    return ['voila', 'pyathena', 'seaborn', 'pandas', 'openpyxl', 'boto3']
+    return ['voila', 'pyathena', 'seaborn', 'pandas', 'openpyxl', 'boto3', 'scipy']
 
 def tljh_extra_apt_packages():
     return ['language-pack-de']
